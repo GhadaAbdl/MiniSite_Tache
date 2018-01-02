@@ -8,7 +8,27 @@ Pour vous aider à démarrer, vous pouvez simplement cloner le projet et install
 ### Installer les dépendances
 
 ```cmd
-npm install
+npm install 
+
+&
+
+bower install ng-dialog
+
+&
+
+bower install angular-growl-v2
+
+&
+
+bower install angular-translate
+
+&
+
+bower install angular-translate-storage-cookie
+
+&
+
+bower install angular-translate-loader-url
 ```
 
 
