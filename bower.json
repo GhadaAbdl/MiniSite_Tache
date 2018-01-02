@@ -1,0 +1,38 @@
+{
+  "name": "angularjs-tache",
+  "description": "A starter project for AngularJS based on John Papa's style guide",
+  "license": "MIT",
+  "keywords": [
+    "AngularJS",
+    "angular",
+    "template",
+    "angularjs-template",
+    "seed",
+    "johnpapa",
+    "styleguide",
+    "node",
+    "express"
+  ],
+  "authors": [
+    "Abdl Ghada"
+  ],
+  "homepage": "#",
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "ignore": [],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-mocks": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.6",
+    "jquery-ui": "^1.11.4"
+  },
+  "private": false,
+  "devDependencies": {
+    "angular-translate": "^2.17.0",
+    "angular-translate-loader-partial": "^2.17.0"
+  }
+}

@@ -1,0 +1,32 @@
+{ 
+    "TITLE" :"Task ANGUARJS Adictiz",
+    "ONGLET1" :"ABOUT ME",
+    "ONGLET2" :"GALERY",
+    "ONGLET3" :"FORM",
+
+    "F_Name": "First Name",
+    "L_Name": "Last Name",
+    "GENDER": "Gender",
+    "BIRTH": "Birth Day",
+    "MALE": "Male",
+    "FEMALE": "FEMALE",
+    "SAVE":"Save",
+    
+    "CHOICE":"Find By Category",
+    "SEARCH":"Search By Category , title ...",
+
+    "DETAILS": "Details of",
+    "CAT": "Category",
+    "AUT": "Author",
+    "DATEPUB": "Date of submit",
+    "BACK": "Back To List",
+
+
+
+    "TITLE_ABOUTME": "about me",
+    "NAME": "Full Name",
+    "EMAIL" :"Email" ,
+    "ADRESS" :"Adress",
+    "PHONE":"Phone",
+    "PARAGRAPH_ABOUTME": "Student in engineering Computer Science Specialty Technologies Web admits an experience in structatio, develop an interactive website implementing the best use of new technologies like AngularJS, NodeJS , Django , Laravel , Symfony  , Java.. , my professional goal is to become an engineer in web technology. Autonomous, passionate, attentive to the needs of customers and the quality of what I produce"
+}

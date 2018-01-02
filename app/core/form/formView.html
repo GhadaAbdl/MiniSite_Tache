@@ -1,0 +1,41 @@
+
+<div class="panel panel-success">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ "ONGLET3" | translate }}</h3>
+    </div>
+    <div growl></div>
+    <div class="panel-body">
+        <form name="ContactForm">
+            <div class="form-group has-feedback" data-ng-class="ContactForm.nom.$valid ? 'has-success' : (ContactForm.nom.$pristine ? '' : 'has-error')">
+                <label class="control-label" for="nom">{{ "F_Name" | translate }}:</label>
+                <input id="nom" name="nom" type="text" data-ng-model="FC.contact.nom" class="form-control" required />
+                <span class="glyphicon form-control-feedback" data-ng-class="ContactForm.nom.$valid ? 'glyphicon-ok' : (ContactForm.nom.$pristine ? '' : 'glyphicon-remove')"></span>
+            </div>
+            <div class="form-group has-feedback" data-ng-class="ContactForm.prenom.$valid ? 'has-success' : (ContactForm.prenom.$pristine ? '' : 'has-error')">
+                <label class="control-label" for="prenom">{{ "L_Name" | translate }}:</label>
+                <input id="prenom" name="prenom" type="text" data-ng-model="FC.contact.prenom" class="form-control" required />
+                <span class="glyphicon form-control-feedback" data-ng-class="ContactForm.prenom.$valid ? 'glyphicon-ok' : (ContactForm.prenom.$pristine ? '' : 'glyphicon-remove')"></span>
+            </div>
+            <div class="form-group has-feedback" data-ng-class="ContactForm.email.$valid ? 'has-success' : (ContactForm.email.$pristine ? '' : 'has-error')">
+                <label class="control-label" for="email">{{ "EMAIL" | translate }}:</label>
+                <input id="email" name="email" type="email" data-ng-model="FC.contact.email" class="form-control" required />
+                <span class="glyphicon form-control-feedback" data-ng-class="ContactForm.email.$valid ? 'glyphicon-ok' : (ContactForm.email.$pristine ? '' : 'glyphicon-remove')"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <label class="control-label" for="sexe">{{ "GENDER" | translate }}:</label>
+                <input id="Femme" name="sexe" type="radio" data-ng-model="FC.contact.sexe" value="{{ 'MALE' | translate }}" class="radio radio-inline" data-ng-required="!FC.contact.sexe"/>{{ "MALE" | translate }}
+                <input id="Homme" name="sexe" type="radio" data-ng-model="FC.contact.sexe" value="{{ 'FEMALE' | translate }}" class="radio radio-inline" data-ng-required="!FC.contact.sexe"/>{{ "FEMALE" | translate }}
+            </div>
+        
+            <div class="form-group has-feedback" data-ng-class="ContactForm.datenaissance.$valid ? 'has-success' : (ContactForm.datenaissance.$pristine ? '' : 'has-error')">
+                <label class="control-label" for="datenaissance">{{ "BIRTH" | translate }}:</label>
+                <input id="datenaissance" name="datenaissance" data-ng-model="FC.contact.datenaissance" maxlength="150" class="form-control"  data-ng-date-picker=""  required/>
+                <span class="glyphicon form-control-feedback" data-ng-class="ContactForm.datenaissance.$valid ? 'glyphicon-ok' : (ContactForm.datenaissance.$pristine ? '' : 'glyphicon-remove')"></span>
+            </div>
+            <button id="save-btn" class="btn btn-success" data-ng-click="FC.update(FC.contact)" data-ng-disabled="ContactForm.$invalid">{{ "SAVE" | translate }} <span class="glyphicon glyphicon-ok"></span></button>
+        </form>
+    </div>
+</div>
+<pre>form = {{FC.contact| json}}</pre>
+<pre id="contactForm">contactForm = {{FC.contactForm| json}}</pre>

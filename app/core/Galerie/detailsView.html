@@ -1,0 +1,24 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="list-group">
+            <a id="title" class="list-group-item active">
+                <strong>{{ "DETAILS" | translate }} {{::GDC.dataImage.title}}</strong>
+            </a>
+
+            <a id="title" class="list-group-item active">
+                <img src="{{::GDC.dataImage.path}}" height="445px" width="350px"  alt="Gallery">
+            </a>
+
+            <a class="list-group-item">
+                    {{ "CAT" | translate }}: <strong>{{::GDC.dataImage.category.name}}</strong>
+            </a>
+            <a class="list-group-item">
+                    {{ "AUT" | translate }}: <strong>{{::GDC.dataImage.auteur}}</strong>
+            </a>
+            <a class="list-group-item">
+                    {{ "DATEPUB" | translate }}: <strong>{{::GDC.dataImage.date}}</strong>
+            </a>
+        </div>
+        <button id="back-btn" data-ui-sref="root.todos.list" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span>  {{ "BACK" | translate }}</button>
+    </div>
+</div>

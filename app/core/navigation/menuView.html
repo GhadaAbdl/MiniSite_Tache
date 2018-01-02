@@ -1,0 +1,22 @@
+<div class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        
+            <a id="app-title" class="navbar-brand" href="#/">{{ "TITLE" | translate }}</a>
+        </div>
+        
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                    <li data-ng-class="MC.getClass('root.aboutme')"><a id="json-page-link" data-ui-sref="root.aboutme">{{ "ONGLET1" | translate }}</a></li>
+                <li data-ng-class="MC.getClass('root.todos.list')"><a id="todos-list-page-link" data-ui-sref="root.todos.list">{{ "ONGLET2" | translate }}</a></li>
+                <li data-ng-class="MC.getClass('root.form')"><a id="form-page-link" data-ui-sref="root.form">{{ "ONGLET3" | translate }}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+{
+    "TITLE" :"Tache ANGUARJS Adictiz",
+    "ONGLET1" :"ABOUT ME",
+    "ONGLET2" :"GALERIE",
+    "ONGLET3" :"FORMULAIRE",
+
+    "F_Name": "Nom",
+    "L_Name": "Prénom",
+    "GENDER": "Sexe",
+    "BIRTH": "Date de naissance",
+    "MALE": "Homme",
+    "FEMALE": "Femme",
+    "SAVE":"Enregistrer",
+
+    "CHOICE":"Choisir par categorie",
+    "SEARCH":"Chercher par catégorie , titre ....",
+     
+    "DETAILS": "Details de",
+    "CAT": "Catégorie",
+    "AUT": "Auteur",
+    "DATEPUB": "Date du publication",
+    "BACK": "Retour à la liste",
+
+
+
+
+    "TITLE_ABOUTME": "A propos moi",
+    "NAME": "Nom & Prénom",
+    "EMAIL" :"Email" ,
+    "ADRESS" :"Adresse",
+    "PHONE":"Numero",
+    "PARAGRAPH_ABOUTME": "Eleve en ingénierie Informatique spécialité Technologies Web admet une expérience en structuration,  développement du site Web interactif mettant en œuvre  le meilleur usage des nouvelles  technologies comme AngularJS , NodeJS , Django , Laravel , Symfony  , Java..  ,  mon objectif professionnel est de devenir un  ingénieur en technologie web. Autonome, passionnée, attentive aux besoins des clients et à la qualité de ce que je produis."
+}
